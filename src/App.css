@@ -7,6 +7,40 @@
   pointer-events: none;
 }
 
+.head {
+  text-align: center;
+  font-size: 2vw;
+}
+
+h1.head {
+  max-width: 70vw;
+  margin: auto auto;
+}
+
+div.input {
+  text-align: center;
+}
+
+.inputField {
+  height: 50px;
+  font-size: 1.5em;
+}
+
+input.inputField {
+  width: 500px;
+}
+
+button.inputField {
+  height: 55px;
+  background:  aqua;
+}
+
+.search-error {
+  text-align: center;
+  font-size: 2em;
+  margin: 5em 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
